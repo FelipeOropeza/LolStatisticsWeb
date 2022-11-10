@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LolStatistics.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,18 +14,20 @@ namespace LolStatistics.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Usuario()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+            var usuario = new Usuario(); //Criando o objeto para a classe
+            return View(usuario); //Retorna para a view os dados da classe
         }
+        [HttpPost]
 
-        public ActionResult Contact()
+        public ActionResult Usuario(Usuario usuario)
         {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            if (ModelState.IsValid) //Validando o estado, ou seja, verificando a requisição
+            {
+                return View("Resultado", usuario); //Retorna para a view Resultado
+            }
+            return View(usuario);
         }
     }
 }
