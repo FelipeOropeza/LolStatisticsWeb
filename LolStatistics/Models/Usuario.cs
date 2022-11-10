@@ -35,7 +35,7 @@ namespace LolStatistics.Models
         public string Senha { get; set; }
 
         [Display(Name = "Confirmar senha")]
-        [System.ComponentModel.DataAnnotations.Compare("Senha", ErrorMessage = "Senha não corresponde")]
+        [System.ComponentModel.DataAnnotations.Compare("Senh", ErrorMessage = "Senha não corresponde")]
         public string Confsenha { get; set; }
     }
 }
