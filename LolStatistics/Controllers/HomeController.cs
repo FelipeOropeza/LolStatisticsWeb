@@ -29,5 +29,10 @@ namespace LolStatistics.Controllers
             }
             return View(usuario);
         }
+
+        public ActionResult Resultado(Usuario usuario) //Criando a ação para a view resultado
+        {
+            return View(usuario);
+        }
     }
 }
