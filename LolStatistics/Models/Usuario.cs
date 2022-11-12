@@ -9,7 +9,7 @@ namespace LolStatistics.Models
     public class Usuario
     {
         [Display(Name = "Nome de Usuário")]
-        [Required(ErrorMessage = "O nome é obrigatóri")]
+        [Required(ErrorMessage = "O nome é obrigatório")]
         public string NomeUsuario { get; set; }
 
         [Display(Name = "Email")]
