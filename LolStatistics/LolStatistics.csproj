@@ -137,6 +137,9 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Imagens\iconLol.png" />
+    <Content Include="Imagens\imagem1.jfif" />
+    <Content Include="Imagens\imagem2.jfif" />
+    <Content Include="Imagens\imagem3.jfif" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />

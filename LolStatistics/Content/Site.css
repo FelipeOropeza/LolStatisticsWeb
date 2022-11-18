@@ -1,8 +1,10 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿#texto{
+    color:aqua;
 }
 
+#teste {
+    color: aqua;
+}
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
