@@ -11,6 +11,25 @@ a{
     color:#000;
 }
 
+#titulo {
+    font-weight: bold;
+}
+
+#jumbotron {
+    margin-top: 50px;
+}
+
+#footer {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    bottom: 0px;
+}
+
+#copy{
+    margin-left: 20px;
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
