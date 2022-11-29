@@ -18,11 +18,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li id="link" class="nav-item">@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li id="link" class="nav-item">@Html.ActionLink("Home", "Sobre", "Home")</li>
                 </ul>
                 <form class="d-flex">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2.5a5.25 5.25 0 00-2.519 9.857 9.005 9.005 0 00-6.477 8.37.75.75 0 00.727.773H20.27a.75.75 0 00.727-.772 9.005 9.005 0 00-6.477-8.37A5.25 5.25 0 0012 2.5z"></path></svg></li>&nbsp;
-                        <li id="link" class="nav-item">@Html.ActionLink("Login", "Usuario", "Home")</li>
+                        <li class="nav-item">@Html.ActionLink("Login", "Usuario", "Home")</li>
                     </ul>
                 </form>
             </div>
@@ -40,7 +41,7 @@
             </a>
 
             <ul class="nav col-md-2 justify-content-end">
-                <li class="nav-item">@Html.ActionLink("Login", "Sobre", "Home")</li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contato</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
 
