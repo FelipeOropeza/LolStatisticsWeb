@@ -13,6 +13,15 @@ namespace LolStatistics.Controllers
         {
             return View();
         }
+         public ActionResult Contact()
+        {
+            return View();
+        }
+
+        public ActionResult Sobre()
+        {
+            return View();
+        }
 
         public ActionResult Usuario()
         {

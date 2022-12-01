@@ -1,17 +1,27 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Contato";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div id="contato" class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+              <h2>@ViewBag.Title</h2>
+              <h3>@ViewBag.Message</h3>
+              <address>
+                  One Microsoft Way<br />
+                  Redmond, WA 98052-6399<br />
+                  <abbr title="Phone">P:</abbr>
+                  425.555.0100
+              </address>
+              <address>
+                  <strong>Support:</strong><a href="mailto:Support@example.com">Support@example.com</a><br />
+                  <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+              </address>
+          </div>
+        <div class="col-auto d-none d-lg-block">
+            <img  id="img_contato" src="~/Imagens/4067833.jpg"/>
+        </div>
+      </div>
+    </div>
+</div>

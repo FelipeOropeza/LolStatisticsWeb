@@ -19,6 +19,20 @@ a{
     font-weight: bold;
 }
 
+#contato {
+    margin-top: 200px;
+}
+
+#card_sobre {
+    margin-top: 100px;
+    border:none;
+}
+
+#img_contato {
+    width: 250px;
+    height: 250px;
+}
+
 #jumbotron {
     margin-top: 50px;
 }
