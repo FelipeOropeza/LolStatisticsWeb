@@ -23,6 +23,11 @@ namespace LolStatistics.Controllers
             return View();
         }
 
+        public ActionResult Faqs()
+        {
+            return View();
+        }
+
         public ActionResult Usuario()
         {
             var usuario = new Usuario(); //Criando o objeto para a classe

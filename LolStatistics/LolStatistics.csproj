@@ -137,10 +137,13 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Imagens\4067833.jpg" />
+    <Content Include="Imagens\ahri.jpg" />
+    <Content Include="Imagens\Builds.png" />
     <Content Include="Imagens\iconLol.png" />
     <Content Include="Imagens\imagem1.jfif" />
     <Content Include="Imagens\imagem2.jfif" />
     <Content Include="Imagens\imagem3.jfif" />
+    <Content Include="Imagens\runa.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -170,6 +173,7 @@
     <Content Include="Views\Home\Usuario.cshtml" />
     <Content Include="Views\Home\Resultado.cshtml" />
     <Content Include="Views\Home\Sobre.cshtml" />
+    <Content Include="Views\Home\Faqs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

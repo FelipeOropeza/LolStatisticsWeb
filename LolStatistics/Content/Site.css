@@ -11,26 +11,50 @@ a{
     color:#000;
 }
 
-#link {
-    margin-left: 20px;
+#Link {
+    color: #00008B;
+}
+
+#Link:hover {
+    color: #fff;
+}
+
+#Link_index {
+    color: #fff;
+}
+
+#h1_index {
+    color: #000080;
+}
+
+#h2_index {
+    font-weight: bold;
 }
 
 #titulo {
     font-weight: bold;
+    color: #000080;
 }
 
 #contato {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 #card_sobre {
-    margin-top: 100px;
-    border:none;
+    margin-top: 70px;
+    margin-left: 70px;
 }
 
 #img_contato {
     width: 250px;
     height: 250px;
+}
+
+#img_sobre {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px #000 solid;
 }
 
 #jumbotron {
@@ -44,8 +68,19 @@ a{
     bottom: 0px;
 }
 
-#copy{
+#copy {
     margin-left: 20px;
+    color: #00008B;
+}
+
+#h3_sobre {
+    margin-left: 400px;
+    font-weight: bold;
+}
+
+#p_faqs {
+    color: #696969;
+    font-weight: bold;
 }
 
 /* Set padding to keep content from hitting the edges */
