@@ -1,2 +1,2 @@
 # LolStatisticsWeb
-Aplicação ASP.NET
+Nomes: Felipe Carvalho e Guilherme Evangelista
